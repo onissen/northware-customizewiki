@@ -1,0 +1,22 @@
+/* To compile this SASS to the right CSS-File, run **** sass -w nw-templates.sass:nw-templates.css ***** in the directory northware-customizewiki */
+
+.info-box, .content-box
+    margin: 5px
+    border: 1px solid #ccc
+    padding: 0 10px 10px 10px
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1)
+    
+    .box-heading 
+            font-size: 1.2em
+    .box-content 
+        border-top: 1px solid #ccc
+        padding-top: 0.5em
+    
+.content-box .box-content
+    border: none
+
+
+.flex-parent
+    display: flex
+    flex-flow: row wrap
+    justify-content: space-around
