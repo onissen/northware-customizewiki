@@ -7,4 +7,7 @@
 
     # Prevent new user registrations except by sysops
     $wgGroupPermissions['*']['createaccount'] = false;
+    $wgGroupPermissions['user']['createaccount'] = false;
+    $wgGroupPermissions['sysop']['createaccount'] = true;
+
 ?>
